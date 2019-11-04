@@ -52,4 +52,4 @@ class Thoughts {
 }
 
 
-new Thoughts('data/thoughts.json');
+new Thoughts('../data/thoughts.json');

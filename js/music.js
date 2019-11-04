@@ -46,4 +46,4 @@ class Music {
 
 }
 
-new Music('data/music.json');
+new Music('../data/music.json');

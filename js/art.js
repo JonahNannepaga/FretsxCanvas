@@ -57,4 +57,4 @@ class Art {
 
 }
 
-new Art('data/art.json');
+new Art('../data/art.json');
