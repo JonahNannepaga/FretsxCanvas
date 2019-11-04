@@ -1,0 +1,182 @@
+body {
+    margin: 0 auto;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+
+.comp-head {
+    text-align: center;
+    background-color: yellow;
+    // border: 5px solid black;
+    padding: 10px 0;
+}
+
+//Navbar
+.navbar {
+    padding: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #9EE101;
+    min-height: 90px;
+    list-style: none;
+    margin: 0;
+
+    li {
+        h1 {
+            margin: 0;
+            cursor: pointer;
+
+            a {
+                padding: 40px 0;
+            }
+        }
+
+        display: inline-block;
+        width: 33.33%;
+        min-height: 116px;
+        font-weight: bold;
+
+        &:hover {
+            background-color: yellow;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            padding: 45px 0;
+            color: black;
+            cursor: pointer;
+            justify-content: center;
+        }
+    }
+}
+
+//Art grid
+.art-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+    .art-card {
+        padding: 10px;
+        margin: 0 auto;
+
+        img {
+            display: block;
+            height: 400px;
+            max-width: 100%;
+            margin: auto;
+        }
+
+        p {
+            display: block;
+            font-family: 'Satisfy', cursive;
+            font-size: 20px;
+            // font-weight: bold;
+        }
+
+    }
+}
+
+//Carousel styles Thoughts
+.slide {
+    display: inline-block;
+}
+
+.slider-styles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        outline: none;
+        display: inline-block;
+        text-align: center;
+
+        p {
+            max-width: 100%;
+            height: 200px;
+            font-family: 'Satisfy', cursive;
+            // font-weight: bold;
+            font-size: 30px;
+            padding: 20px;
+        }
+
+    }
+}
+
+//music-card
+
+.music-card {
+    padding: 0 100px;
+
+    ul {
+        padding: 20px 80px;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid #FCCE16;
+
+        &:hover {
+            box-shadow: 0 0 20px #888888;
+            // box-shadow: 5px 10px 18px #FF750F;
+        }
+
+        li {
+            font: italic 22px/2.5 'Satisfy';
+
+            img {
+                vertical-align: middle;
+            }
+
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                background: black;
+                border-radius: 50%;
+                padding: 20px;
+
+                &:hover {
+                    color: #FF750F;
+                }
+            }
+        }
+    }
+
+}
+
+//Footer Styles
+.footer {
+    border: 4px solid black;
+    background: #9EE101;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+        display: inline-flex;
+    }
+
+    .footer__nav {
+        display: flex;
+        margin: 0 50px;
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+                text-transform: lowercase;
+            }
+        }
+    }
+}
