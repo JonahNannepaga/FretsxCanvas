@@ -21,7 +21,7 @@ class Music {
         //var data;
         url = `http://127.0.0.1:5500/Muiart/` + url;
 
-        url = `http://www.json-generator.com/api/json/get/cgxjEKlMRK?indent=3`;
+        url = `https://www.json-generator.com/api/json/get/cgxjEKlMRK?indent=3`;
         var xhr = new XMLHttpRequest();
         xhr.open("GET", url, true);
         xhr.responseType = 'json';
