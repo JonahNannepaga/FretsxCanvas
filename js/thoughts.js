@@ -19,7 +19,10 @@ class Thoughts {
 
     makeAJAXCall(url) {
         //var data;
-        url = `http://127.0.0.1:5500/Muiart/` + url;
+        // url = `http://127.0.0.1:5500/Muiart/` + url;
+        // url = `https://jsoneditoronline.org/?id=25dc06a105aa4506aecd861f58c2a84d`;\
+
+        url = `http://www.json-generator.com/api/json/get/clhMMWMwOa?indent=2`;
         var xhr = new XMLHttpRequest();
         xhr.open("GET", url, true);
         xhr.responseType = 'json';
@@ -52,4 +55,4 @@ class Thoughts {
 }
 
 
-new Thoughts('../data/thoughts.json');
+new Thoughts('data/thoughts.json');

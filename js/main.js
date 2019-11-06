@@ -43,7 +43,7 @@ $("#thoughts .slick").slick({
     // fade: true,
     autoplaySpeed: 5000,
     //dots: true,
-    arrows: false,
+    arrows: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     //speed: 4000,
@@ -58,7 +58,7 @@ $("#thoughts .slick").slick({
                 slidesToScroll: 3,
                 infinite: true,
                 dots: true,
-                arrows: false
+                arrows: true
             }
         },
         {

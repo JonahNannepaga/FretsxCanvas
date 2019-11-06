@@ -18,7 +18,9 @@ class Art {
 
     makeAJAXCall(url) {
         //var data;
-        url = `http://127.0.0.1:5500/Muiart/` + url;
+        // url = `http://127.0.0.1:5500/Muiart/` + url;
+
+        url = `http://www.json-generator.com/api/json/get/cdHdwbiiPS?indent=3`;
         var xhr = new XMLHttpRequest();
         xhr.open("GET", url, true);
         xhr.responseType = 'json';
@@ -27,7 +29,7 @@ class Art {
                 var data = xhr.response;
                 var card = $('#art-comp');
                 var fragment = document.createDocumentFragment();
-                console.log(data); //to test JSON data
+                console.log(data); //to test incoming JSON data
                 data.forEach(function (data) {
                     var division = document.createElement('div');
                     division.setAttribute("class", "art-card");
