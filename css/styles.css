@@ -167,11 +167,10 @@ body {
 }
 
 .music-card ul li a:hover {
-  color: #FF750F;
+  color: #DEB887;
 }
 
 .footer {
-  border: 4px solid black;
   background: #DEB887;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -194,7 +193,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 50px;
+  margin: 0 30px;
   padding: 0;
   width: 100%;
   -webkit-box-align: center;
@@ -207,6 +206,7 @@ body {
 
 .footer .footer__nav li {
   list-style: none;
+  font-weight: bold;
 }
 
 .footer .footer__nav li a {
