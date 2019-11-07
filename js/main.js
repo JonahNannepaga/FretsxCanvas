@@ -36,6 +36,95 @@ navList.on("click", function (event) {
 //     })
 // });
 
+/*Theme Changer*/
+var compHead = $(".comp-head");
+var navBar = $(".navbar");
+var footBar = $(".footer");
+var allLinks = $("a");
+
+var themeList = $("#theme-list");
+themeList.on("click", function (event) {
+    if (!event || !event.target) {
+        return;
+    }
+    event.preventDefault();
+    var themeClass = event.target.firstChild ? event.target.firstChild.getAttribute("class") || event.target.firstElementChild.className : '';
+    document.body.className = themeClass;
+    
+    switch(themeClass){
+        case "switch-theme theme-1":
+            compHead.css('background-color','#D83F87');
+            compHead.css('color','#FFFFFF');
+            navBar.css('background-color','#D83F87');
+            navBar.css('color','#FFFFFF');
+            footBar.css('background-color','#D83F87');
+            footBar.css('color','#FFFFFF');
+            allLinks.css('color','#FFFFFF');
+            break;
+
+        case "switch-theme theme-2":
+            compHead.css('background-color','#53900F');
+            compHead.css('color','#000000');
+            navBar.css('background-color','#53900F');
+            navBar.css('color','#FFFFFF');
+            footBar.css('background-color','#53900F');
+            footBar.css('color','#000000');
+            allLinks.css('color','#000000');
+            break;
+
+        case "switch-theme theme-3":
+            compHead.css('background-color','#17252A');
+            compHead.css('color','#FFFFFF');
+            navBar.css('background-color','#17252A');
+            navBar.css('color','#FFFFFF');
+            footBar.css('background-color','#17252A');
+            footBar.css('color','#FFFFFF');
+            allLinks.css('color','#FFFFFF');
+            break;
+
+        case "switch-theme theme-4":
+            compHead.css('background-color','#1F2833');
+            compHead.css('color','#FFFFFF');
+            navBar.css('background-color','#1F2833');
+            navBar.css('color','#FFFFFF');
+            footBar.css('background-color','#1F2833');
+            footBar.css('color','#FFFFFF');
+            allLinks.css('color','#FFFFFF');
+            break;
+
+        default:
+            compHead.css('background-color','#DEB887');
+            compHead.css('color','#000000');
+            navBar.css('background-color','#DEB887');
+            navBar.css('color','#000000');
+            footBar.css('background-color','#DEB887');
+            footBar.css('color','#000000');
+            allLinks.css('color','#000000');
+            break;
+
+    }
+   });
+// var s1 = $('#color1')
+// s1.on("click", function (event) {
+//     if (!event || !event.target) {
+//         return;
+//     }
+//     event.preventDefault();
+//     $('body').css('background', '#84CEEB');
+//     s1.css('border-color','green');
+//     s1.css('box-shadow-color','green');
+// });
+
+// var s1 = $('#color2')
+// s1.on("click", function (event) {
+//     if (!event || !event.target) {
+//         return;
+//     }
+//     event.preventDefault();
+//     $('body').css('background', '#000000');
+//     s1.css('border-color','green');
+//     s1.css('box-shadow-color','green');
+// });
 /*Slick Carousel*/
 
 $("#thoughts .slick").slick({

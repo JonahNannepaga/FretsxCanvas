@@ -5,6 +5,26 @@ body {
   background: #F5F5F5;
 }
 
+body.theme-1 {
+  background: #2A1B3D;
+  color: #E98074;
+}
+
+body.theme-2 {
+  background: #D6CE15;
+  color: #112D32;
+}
+
+body.theme-3 {
+  background: #88BDBC;
+  color: #112D32;
+}
+
+body.theme-4 {
+  background: #0B0C10;
+  color: #66FCF1;
+}
+
 .comp-head {
   text-align: center;
   background-color: #DEB887;
@@ -67,6 +87,49 @@ body {
 .navbar li a:hover {
   background-color: #ccccdd;
   border-right: 2px solid #888888;
+}
+
+.themechanger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.themechanger li .switch-theme {
+  height: 3rem;
+  width: 3rem;
+  border: 1px solid darkgray;
+  -webkit-box-shadow: 0 0 10px #888888;
+          box-shadow: 0 0 10px #888888;
+  pointer-events: none;
+  border-radius: 50%;
+  display: inline-block;
+  background: linear-gradient(45deg, #F5F5F5 50%, #DEB887 50%);
+  vertical-align: middle;
+}
+
+.themechanger li .theme-1 {
+  background: linear-gradient(45deg, #2A1B3D 50%, #D83F87 50%);
+}
+
+.themechanger li .theme-2 {
+  background: linear-gradient(45deg, #D6CE15 50%, #53900F 50%);
+}
+
+.themechanger li .theme-3 {
+  background: linear-gradient(45deg, #88BDBC 50%, #112D32 50%);
+}
+
+.themechanger li .theme-4 {
+  background: linear-gradient(45deg, #0B0C10 50%, #66FCF1 50%);
 }
 
 .art-section {
