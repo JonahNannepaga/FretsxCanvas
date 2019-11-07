@@ -2,25 +2,28 @@ body {
     margin: 0 auto;
     font-family: 'Cinzel', serif;
     font-size: 18px;
-    background :#F5F5F5;
+    background: #F5F5F5;
+
     &.theme-1 {
         background: #2A1B3D;
         color: #E98074;
     }
-  
+
     &.theme-2 {
-        background:  #D6CE15;
+        background: #D6CE15;
         color: #112D32;
     }
+
     &.theme-3 {
         background: #88BDBC;
-        color:#112D32;
+        color: #112D32;
     }
+
     &.theme-4 {
         background: #0B0C10;
         color: #66FCF1;
     }
-   
+
 }
 
 .comp-head {
@@ -42,7 +45,7 @@ body {
     min-height: 90px;
     list-style: none;
     margin: 0;
-    
+
 
     li {
         h1 {
@@ -61,9 +64,9 @@ body {
         border: 5px solid transparent;
 
         &:hover {
-            background-color:  #F5F5F5;
+            background-color: #F5F5F5;
             border-top: 5px solid black;
-            border-bottom: 5px solid ;
+            border-bottom: 5px solid;
             font-weight: bold;
         }
 
@@ -87,47 +90,48 @@ body {
 
 //Theme Changer
 
-.themechanger{
-   
+.themechanger {
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    padding:0;
-    margin:30px 0;
-    li{
-        
-        .switch-theme{
-            height:3rem;
-            width:3rem;
-            border:1px solid darkgray;
+    padding: 0;
+    margin: 30px 0;
+
+    li {
+
+        .switch-theme {
+            height: 3rem;
+            width: 3rem;
+            border: 1px solid darkgray;
             box-shadow: 0 0 10px #888888;
             pointer-events: none;
-         border-radius: 50%;
-         display: inline-block;
-        background: linear-gradient(45deg, #F5F5F5 50%, #DEB887  50%);
-           vertical-align: middle;
+            border-radius: 50%;
+            display: inline-block;
+            background: linear-gradient(45deg, #F5F5F5 50%, #DEB887 50%);
+            vertical-align: middle;
         }
 
-        .theme-1{
+        .theme-1 {
             background: linear-gradient(45deg, #2A1B3D 50%, #D83F87 50%);
         }
 
-        .theme-2{
-            background: linear-gradient(45deg,#D6CE15 50%, #53900F 50%);
+        .theme-2 {
+            background: linear-gradient(45deg, #D6CE15 50%, #53900F 50%);
         }
 
-        .theme-3{
+        .theme-3 {
             background: linear-gradient(45deg, #88BDBC 50%, #112D32 50%);
-            
+
         }
 
-        .theme-4{
+        .theme-4 {
             background: linear-gradient(45deg, #0B0C10 50%, #66FCF1 50%);
-            
+
         }
 
-        
+
     }
 }
 
@@ -209,8 +213,8 @@ body {
 
             img {
                 vertical-align: middle;
-                height:50px;
-                width:50px;
+                height: 50px;
+                width: 50px;
             }
 
             a {

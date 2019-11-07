@@ -38,11 +38,11 @@ body.theme-4 {
   display: flex;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #DEB887;
   min-height: 90px;
   list-style: none;
@@ -80,8 +80,8 @@ body.theme-4 {
   color: black;
   cursor: pointer;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .navbar li a:hover {
@@ -94,10 +94,10 @@ body.theme-4 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   list-style: none;
   padding: 0;
   margin: 30px 0;
@@ -108,7 +108,7 @@ body.theme-4 {
   width: 3rem;
   border: 1px solid darkgray;
   -webkit-box-shadow: 0 0 10px #888888;
-          box-shadow: 0 0 10px #888888;
+  box-shadow: 0 0 10px #888888;
   pointer-events: none;
   border-radius: 50%;
   display: inline-block;
@@ -137,10 +137,10 @@ body.theme-4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -171,11 +171,11 @@ body.theme-4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider-styles div {
@@ -203,17 +203,17 @@ body.theme-4 {
   display: flex;
   list-style: none;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   border: 2px solid #CD853F;
 }
 
 .music-card ul:hover {
   -webkit-box-shadow: 0 0 20px #888888;
-          box-shadow: 0 0 20px #888888;
+  box-shadow: 0 0 20px #888888;
 }
 
 .music-card ul li {
@@ -244,11 +244,11 @@ body.theme-4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .footer h2 {
@@ -265,11 +265,11 @@ body.theme-4 {
   padding: 0;
   width: 100%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .footer .footer__nav li {
@@ -282,4 +282,5 @@ body.theme-4 {
   color: black;
   text-transform: lowercase;
 }
+
 /*# sourceMappingURL=styles.css.map */
